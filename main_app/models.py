@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class Tournament(models.Model):
+    name = models.CharField(max_length=100, null=True)
     city = models.CharField(max_length=100, null=True)
     date = models.DateField(max_length=100, null=True)
     address = models.CharField(max_length=100, null=True)

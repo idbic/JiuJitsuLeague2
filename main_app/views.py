@@ -12,7 +12,7 @@ class ReactView(APIView):
     serializer_class = ReactSerializer
   
     def get(self, request):
-        detail = [ {"city": detail.city,"date": detail.date, "address": detail.address, "price": detail.price, } 
+        detail = [ {"name": detail.name, "city": detail.city,"date": detail.date, "address": detail.address, "price": detail.price, } 
         for detail in Tournament.objects.all()]
         return Response(detail)
   
