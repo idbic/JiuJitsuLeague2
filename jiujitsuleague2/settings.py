@@ -88,10 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'jiujitsuleague',
-        # 'USER': 'myuser',
-        # 'PASSWORD': 'password', 
-        # 'HOST': 'localhost',
-        # 'PORT': ''
+        
     }
 }
 
