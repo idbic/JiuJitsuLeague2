@@ -8,7 +8,7 @@ class Tournament(models.Model):
     date = models.DateField(max_length=100, null=True)
     address = models.CharField(max_length=100, null=True)
     price = models.IntegerField(null=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
     
 
 
