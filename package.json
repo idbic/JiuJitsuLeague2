@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0",
-    "reactstrap": "^9.1.2"
+    "env": "^0.0.2",
+    "reactstrap": "^9.1.2",
+    "virtualenv": "^0.3.1"
   }
 }
